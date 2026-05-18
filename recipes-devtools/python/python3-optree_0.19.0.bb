@@ -18,4 +18,6 @@ INSANE_SKIP:${PN} += " \
     already-stripped \
 "
 
+CCACHE_DISABLE = "1"
+
 BBCLASSEXTEND = "native"
